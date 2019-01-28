@@ -8,10 +8,11 @@
   position: absolute;
   top: 50%;
   letter-spacing: 10px;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 .wte{
   color:red;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -19,4 +20,58 @@
   position: absolute;
   width: 100%;
   height: 100%;
+}
+.myCanvas{
+  background-color: transparent;
+  width: 90px;
+  height:400px;
+}
+
+.v-canvas{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 90px;
+    background-color: transparent;
+}
+
+.aon{
+  position: absolute;
+  white-space:nowrap;/* 防止向下换行*/
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+.doommview{
+  z-index: 3;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+.button{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: right;
+}
+.button .xing{
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  margin-right: 10px;
+  animation: aa 1s infinite;
+}
+
+
+@keyframes first{
+  from{left: 100%; }
+  to{left: -100%;}
+}
+
+@keyframes aa{
+  0%{
+    transform: scale(0.5)
+  }
+  100%{
+    transform: scale(1)
+  }
 }
