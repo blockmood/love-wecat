@@ -1,0 +1,5 @@
+<!--miniprogram/pages/home/home.wxml-->
+<view class='container'>
+  <image src='../../images/love.png' class='bjt'></image>
+  <view class='textH1'>我们已经在一起<text class='wte'>{{time}}</text>天！</view>
+</view>
