@@ -1,7 +1,25 @@
 <!--miniprogram/pages/home/home.wxml-->
 <view class='container'>
   <!-- <image src='../../images/love.png' class='bjt'></image> -->
-  <view class='textH1'>我们已经在一起<text class='wte'>{{time}}</text>天啦</view>
+  <view class='bj'></view>
+  <view class='box-c'>
+    <view class='left'>
+      <view class='toux'>
+        <image src="../../images/xx.jpg"></image>
+        <text>Yx</text>
+      </view>
+    </view>
+    <view class='day'>
+      <text class='wte'>{{time}}</text> 天
+    </view>
+    <view class='right'>
+      <view class='toux'>
+        <image src="../../images/yy.jpg"></image>
+        <text>Time Machine</text>
+      </view>
+    </view>
+  </view>
+  <!-- <view class='textH1'>我们已经在一起<text class='wte'>{{time}}</text>天啦</view> -->
   <view class="v-canvas">
         <canvas canvas-id="canvas_wi" style="{{canvas_style}}" class="myCanvas"/>
   </view>

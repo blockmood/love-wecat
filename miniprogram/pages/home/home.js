@@ -44,6 +44,13 @@ Page({
     this.setData({
       time: differenceTime
     })
+    //自动出弹幕
+    // setInterval(()=>{
+    //   doommList.push(getList());
+    //   this.setData({
+    //     doommData: doommList
+    //   })
+    // },800)
   },
 
   /**
@@ -83,7 +90,7 @@ Page({
 })
 
 //弹幕文字
-var arr = ['老婆，我爱你','亲爱的，祝你开心呀！','宝贝儿！','嘻嘻嘻~','我错了~~','就快一年啦，宝宝！']
+var arr = ['老婆，我爱你','亲爱的，祝你开心呀！','宝贝儿！','嘻嘻嘻~','我错了~~','就快一年啦，宝宝！','新年快乐呀!','我的天呐！','要开心呀！']
 
 //弹幕列表
 function getList(){

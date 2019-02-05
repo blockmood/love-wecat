@@ -1,11 +1,11 @@
 {
   "cloud": true,
   "pages": [
-    "pages/home/home",    
+    "pages/home/home",
     "pages/index/index",
+    "pages/photo/photo",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
     "pages/chooseLib/chooseLib"
@@ -14,7 +14,25 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#FF6347",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/shouyexuanzhong.png",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/shouyexuanzhong.png",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "images/xiangce.png",
+        "iconPath": "images/xiangce.png",
+        "pagePath": "pages/photo/photo",
+        "text": "相册"
+      }
+    ]
   }
 }
